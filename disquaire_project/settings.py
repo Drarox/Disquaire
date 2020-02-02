@@ -28,7 +28,7 @@ if os.environ.get('ENV') == 'PRODUCTION':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'disquaire80.herokuapp.com', 'disquaire.herokuapp.com']
 
 
 # Application definition
