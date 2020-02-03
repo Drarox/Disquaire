@@ -28,7 +28,7 @@ if os.environ.get('ENV') == 'PRODUCTION':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'disquaire80.herokuapp.com', 'disquaire.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'disquaire80.herokuapp.com']
 
 
 # Application definition
@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql', # on utilise l'adaptateur postgresql
         'NAME': 'disquaire', # le nom de notre base de donnees creee precedemment
         'USER': 'postgres', # attention : remplacez par votre nom d'utilisateur
-        'PASSWORD': 'nessi',
+        'PASSWORD': '',
         'HOST': '',
         'PORT': '5432',
     }
